@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Ícone de fallback para Android 6.0-7.1 (API 23-25).
+    Usa um <vector> combinando background + foreground num único drawable,
+    pois o formato adaptive-icon só está disponível a partir da API 26.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background indigo -->
+    <path
+        android:fillColor="#7C6AF7"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <!-- "V" branco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,28 L42,28 L54,58 L66,28 L84,28 L57,82 L51,82 Z" />
+</vector>

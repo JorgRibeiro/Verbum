@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Tema base do Verbum para a MainActivity.
+
+        Como este é um app puramente em Jetpack Compose, o tema XML serve apenas
+        como "casca" — o Compose/MaterialTheme cuida de toda a aparência visual.
+
+        Usamos android:Theme.Material.NoActionBar (nativo desde API 21) para
+        não precisar adicionar a dependência do MDC (Material Design Components).
+        O fundo escuro #0D0D0F é o VerbumBackground, evitando flashes brancos
+        durante a inicialização.
+    -->
+    <style name="Theme.Verbum" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!--
+        Tema transparente — usado pelas activities do Bottom Sheet
+        (DefineActivity e TranslateActivity).
+
+        Funciona assim:
+         - windowIsTranslucent: mantém o app anterior visível por baixo
+         - windowBackground @null: remove qualquer background desta Activity
+         - backgroundDimEnabled false: evita duplo dim (o ModalBottomSheet
+           já cuida do seu próprio scrim/dim)
+         - windowIsFloating false: garante que a janela ocupe a tela inteira
+           (necessário para que o ModalBottomSheet posicione-se corretamente)
+    -->
+    <style name="Theme.Verbum.Transparent" parent="Theme.Verbum">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>
+

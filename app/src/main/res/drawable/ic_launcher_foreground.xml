@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Foreground do ícone adaptativo do Verbum.
+    Exibe um "V" estilizado em branco sobre fundo transparente.
+    O background é definido separadamente em ic_launcher_background.xml.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- "V" estilizado — path que forma a letra V centralizada -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,28 L42,28 L54,58 L66,28 L84,28 L57,82 L51,82 Z" />
+</vector>

@@ -1,0 +1,37 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Verbum</string>
+
+    <!-- Labels das ações no menu de seleção de texto -->
+    <string name="action_define">Verbum: Definir</string>
+    <string name="action_translate">Verbum: Traduzir</string>
+
+    <!-- Tela de boas-vindas -->
+    <string name="welcome_title">Bem-vindo ao Verbum</string>
+    <string name="welcome_subtitle">Seu dicionário e tradutor contextual</string>
+    <string name="welcome_instruction_title">Como usar</string>
+    <string name="welcome_step_1">Abra qualquer aplicativo com texto</string>
+    <string name="welcome_step_2">Selecione uma palavra ou trecho</string>
+    <string name="welcome_step_3">Toque em <b>Verbum: Definir</b> ou <b>Verbum: Traduzir</b> no menu</string>
+    <string name="welcome_step_4">Veja o resultado sem sair do app!</string>
+    <string name="welcome_try_title">Palavras para testar</string>
+
+    <!-- Estados do Bottom Sheet -->
+    <string name="state_loading">Buscando…</string>
+    <string name="state_error_title">Ops, algo deu errado</string>
+    <string name="state_error_retry">Tentar novamente</string>
+
+    <!-- Labels de seções -->
+    <string name="section_synonyms">SINÔNIMOS</string>
+    <string name="section_alternatives">ALTERNATIVAS</string>
+    <string name="section_example">Exemplo</string>
+
+    <!-- Footer -->
+    <string name="footer_demo">dados de demonstração</string>
+    <string name="app_brand">Verbum</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_language_badge">Idioma: %1$s</string>
+    <string name="cd_translation_direction">Traduzir de %1$s para %2$s</string>
+    <string name="cd_quote_icon">Ícone de citação</string>
+</resources>
